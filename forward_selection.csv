@@ -1,0 +1,10 @@
+num_predictors,model_string,accuracy
+1,round ~ w_over_l_point_ratio,0.7634366077931927
+2,round ~ w_over_l_point_ratio+w_df,0.7747752274333
+3,round ~ w_over_l_point_ratio+w_df+winner_rank,0.7743067720887183
+4,round ~ w_over_l_point_ratio+w_df+winner_rank+loser_rank,0.7720680976660143
+5,round ~ w_over_l_point_ratio+w_df+winner_rank+loser_rank+w_1stIn,0.7721092677614634
+6,round ~ w_over_l_point_ratio+w_df+winner_rank+loser_rank+w_1stIn+winner_rank_points,0.769399002130012
+7,round ~ w_over_l_point_ratio+w_df+winner_rank+loser_rank+w_1stIn+winner_rank_points+loser_rank_points,0.7661776619091806
+8,round ~ w_over_l_point_ratio+w_df+winner_rank+loser_rank+w_1stIn+winner_rank_points+loser_rank_points+l_df,0.7645823860410332
+9,round ~ w_over_l_point_ratio+w_df+winner_rank+loser_rank+w_1stIn+winner_rank_points+loser_rank_points+l_df+l_1stIn,0.7596702686342789
